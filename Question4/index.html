@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCAH Dev Assessment - Srikar Kalvakolanu</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      table {
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 200px;
+      }
+      img {
+        width: 200px;
+      }
+
+      td {
+        width: 100%;
+        margin: 10px;
+        border: 2px solid black;
+        padding: 10px;
+      }
+
+      label {
+          font-weight: bold;
+      }
+
+      @media only screen and (max-width: 768px) {
+        td {
+          display:block
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <p style="font-weight: bold;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <img
+            src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+            alt="baby-yoda"
+          />
+        </td>
+        <td>
+          <form method="get">
+            <input
+              type="text"
+              id="text"
+              name="text"
+              placeholder="insert text here"
+            />
+            <br />
+            <input type="radio" id="hello" name="hw" value="hello" />
+            <label for="hello">Hello</label><br />
+            <input type="radio" id="world" name="hw" value="world" />
+            <label for="world">World</label><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </td>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
