@@ -22,6 +22,7 @@ Additionally, when developing a website, it's always recommended to use a local 
 <p>You can place JavaScript code in a script tag on the page what front end code would change the text on that page depending on the URL visited?</p>
 <p>Provide a code snippet - This snippet must change the text when tested. Placeholders showing that you would change the text here or what you could do to accomplish this are disqualifying.</p>
 <p><strong>File: </strong>[JavaScipt Snippet](Question3.js) or: </p>
+
 ```
 const copyText = document.querySelector("p")
 
@@ -30,7 +31,6 @@ const currentURL = window.location.href
 if(currentURL.split("=")[1] == "returning"){
     copyText.innerHTML = "Thanks for coming back to the website!"
 }
-```
 
 
 ### Question 4
