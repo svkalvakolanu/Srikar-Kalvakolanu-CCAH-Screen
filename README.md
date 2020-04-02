@@ -31,7 +31,7 @@ const currentURL = window.location.href
 if(currentURL.split("=")[1] == "returning"){
     copyText.innerHTML = "Thanks for coming back to the website!"
 }
-
+```
 
 ### Question 4
 <p>Using HTML, demonstrate your understanding of the following: Boilerplate HTML structure, internal CSS, external CSS and inline styles, HTML Tables, HTML Forms. Additional Requirements: </p>
