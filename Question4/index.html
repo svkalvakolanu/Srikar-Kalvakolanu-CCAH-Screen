@@ -24,12 +24,12 @@
       }
 
       label {
-          font-weight: bold;
+        font-weight: bold;
       }
 
       @media only screen and (max-width: 768px) {
         td {
-          display:block
+          display: block;
         }
       }
     </style>
@@ -69,5 +69,17 @@
     </table>
 
     <script src="script.js"></script>
+    <script>
+      const textInput = document.querySelector("#text");
+
+      textInput.addEventListener(
+        "input",
+        function(event) {
+          textInput.style.backgroundColor = "blue";
+          textInput.style.color = "white";
+        },
+        false
+      );
+    </script>
   </body>
 </html>
