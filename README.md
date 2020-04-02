@@ -28,6 +28,9 @@
 <p>Provide a code snippet - This snippet must change the text when tested. Placeholders showing that you would change the text here or what you could do to accomplish this are disqualifying.</p>
 
 <h3><strong>Answer: </strong></h3>
+<p>I wasn't entirely sure if this question was asking to build the mechanism for the query parameters or to just implement a script that would determine whether or not the url had the content value equal to "returning" and the conditionally manipulate the text. Based on the question saying "dependings on the URL visited," I assumed the latter.</p>
+
+<h3><strong>Answer: </strong></h3>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question3.js">Question 3 Snippet</a> or: </p>
 
 ```
@@ -64,6 +67,7 @@ if(currentURL.split("=")[1] == "returning"){
 <h3><strong>Answer: </strong></h3>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/tree/master/Question4">Question 4 Files</a></p>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question4/index.html">HTML File Specifically</a></p>
+
 <p>For the inline styling requirement, I chose to bold the font of the lorem ipsum text. </p>
 <p>Extra Credit: I created a media query to 'stack' of the table under a certain size. I simply changed the table cells (td) CSS from 'display: table' to 'display: block' to achieve this.</p>
 <p>Extra Credit: I made the text input box have a blue background and white text on input.</p>
