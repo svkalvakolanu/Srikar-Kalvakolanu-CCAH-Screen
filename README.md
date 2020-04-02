@@ -7,7 +7,7 @@
 
 ### Question 1
 <p><strong>Question: </strong>You are attempting to make several visual/layout changes to a web page. If you only have one chance to place your code, how do you ensure/test that it’s correct? (short explanation — no code necessary)</p>
-<p><strong>Answer: </strong>As a general practice, it's best to work on new features/fixes on a branch of the repository. Hotfix branches can be merged directly into the master after approval, while larger feature implementations can stay be added in larger updates to a particular site. In the case that a particular part of a feature doesn't work, one could merge only the meaningful/working changes. 
+<p><strong>Answer: </strong>As a general practice, it's best to work on new features/fixes on a branch of the repository. Hotfix branches can be merged directly into the master after approval, while larger feature implementations can be added in larger updates to a particular site. In the case that a particular part of a feature doesn't work, one could merge only the meaningful/working changes. 
 Additionally, when developing a website, it's always recommended to use a local environment to visualize the changes being made (with hot reloading even better!). It's also useful to use built in browser tools such as the mobile views built into chrome dev tools to visualize the responsiveness of a particular change (you can also manually test this by making the viewport bigger or smaller. Unit testing is possible with tools like Jest to determine if something is rendering correctly. It's also worth using tools like HTML and CSS validators to determine if the code follows best practices. Post-deployment, tools like browserstack, are great to see the page across browsers.</p>
 
 ### Question 2
@@ -52,4 +52,5 @@ if(currentURL.split("=")[1] == "returning"){
 <li>Add another field to your form with radio buttons.</li>
 </ul>
 
-<p><strong>Answer: </strong>See Question 4 folder in repository.</p>
+<p><strong>Answer: </strong><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/tree/master/Question4">Question 4 Files</a></p>
+<p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question4/index.html">HTML File Specifically</a></p>
