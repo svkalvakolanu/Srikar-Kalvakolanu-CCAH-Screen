@@ -40,7 +40,7 @@ if(currentURL.split("=")[1] == "returning"){
 
 ### Question 4
 
-<h1><strong>Question: </strong></h1>
+<h3><strong>Question: </strong></h3>
 <p>Using HTML, demonstrate your understanding of the following: Boilerplate HTML structure, internal CSS, external CSS and inline styles, HTML Tables, HTML Forms. Additional Requirements: </p>
 <ol>
 <li>Put all your styles in a single style tag. You also must reference an external stylesheet (it doesnt have to be real though, just make a reference).</li>
@@ -59,6 +59,6 @@ if(currentURL.split("=")[1] == "returning"){
 <li>Add another field to your form with radio buttons.</li>
 </ul>
 
-<h1><strong>Question: </strong></h1>
+<h3><strong>Answer: </strong></h3>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/tree/master/Question4">Question 4 Files</a></p>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question4/index.html">HTML File Specifically</a></p>
