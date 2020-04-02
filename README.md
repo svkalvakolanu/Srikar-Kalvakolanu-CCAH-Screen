@@ -62,3 +62,6 @@ if(currentURL.split("=")[1] == "returning"){
 <h3><strong>Answer: </strong></h3>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/tree/master/Question4">Question 4 Files</a></p>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question4/index.html">HTML File Specifically</a></p>
+<p>For the inline styling requirement, I chose to bold the font of the lorem ipsum text. </p>
+<p>Extra Credit: I created a media query for the stacking of the table. I simply changed the table cells (td) from 'display: table' to 'display: block' to achieve this.</p>
+<p>Extra Credit: I </p>
