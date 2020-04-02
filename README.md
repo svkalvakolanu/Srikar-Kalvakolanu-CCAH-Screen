@@ -17,11 +17,14 @@ Additionally, when developing a website, it's always recommended to use a local 
 ## Code Questions
 
 ### Question 3
-<p>Question: <a href="http://ccahproduction.com/assessment/frontEnd/01.html">This Page</a> is the page for this question.</p>
+<p><strong>Question: </strong><a href="http://ccahproduction.com/assessment/frontEnd/01.html">This Page</a> is the page for this question.</p>
 <p>You want this text: "This is the copy you must edit" to change if someone visits this page: https://ccahproduction.com/assessment/frontEnd/01.html?content=firsttime vs. this page: https://ccahproduction.com/assessment/frontEnd/01.html?content=returning</p>
 <p>You can place JavaScript code in a script tag on the page what front end code would change the text on that page depending on the URL visited?</p>
 <p>Provide a code snippet - This snippet must change the text when tested. Placeholders showing that you would change the text here or what you could do to accomplish this are disqualifying.</p>
-<p><strong>File: </strong><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question3.js">Question 3 Snippet</a> or: </p>
+
+
+
+<p><strong>Answer: </strong><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question3.js">Question 3 Snippet</a> or: </p>
 
 ```
 const copyText = document.querySelector("p")
@@ -33,7 +36,11 @@ if(currentURL.split("=")[1] == "returning"){
 }
 ```
 
+<hr>
+
 ### Question 4
+
+<h1><strong>Question: </strong></h1>
 <p>Using HTML, demonstrate your understanding of the following: Boilerplate HTML structure, internal CSS, external CSS and inline styles, HTML Tables, HTML Forms. Additional Requirements: </p>
 <ol>
 <li>Put all your styles in a single style tag. You also must reference an external stylesheet (it doesnt have to be real though, just make a reference).</li>
@@ -52,5 +59,6 @@ if(currentURL.split("=")[1] == "returning"){
 <li>Add another field to your form with radio buttons.</li>
 </ul>
 
-<p><strong>Answer: </strong><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/tree/master/Question4">Question 4 Files</a></p>
+<h1><strong>Question: </strong></h1>
+<p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/tree/master/Question4">Question 4 Files</a></p>
 <p><a href="https://github.com/svkalvakolanu/Srikar-Kalvakolanu-CCAH-Screen/blob/master/Question4/index.html">HTML File Specifically</a></p>
